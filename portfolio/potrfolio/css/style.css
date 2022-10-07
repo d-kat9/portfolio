@@ -1,0 +1,28 @@
+html {
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+
+body {
+    margin: 0 auto;
+    overflow-x: hidden;
+    width: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    color: black; 
+}
+
+header {
+    color: black;
+    background-color: antiquewhites;
+    display: inline;
+    float: inline-start;
+
+}
+
+#right-header {
+    float: inline-end;
+}
