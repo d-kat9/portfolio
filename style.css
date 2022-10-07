@@ -1,0 +1,19 @@
+html {
+
+}
+
+body {
+
+}
+
+header {
+    color: black;
+    background-color: antiquewhites;
+    display: inline;
+    float: inline-start;
+
+}
+
+#right-header {
+    float: inline-end;
+}
