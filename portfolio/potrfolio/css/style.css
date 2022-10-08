@@ -27,6 +27,30 @@ main {
     color: black;
 }
 
+h1 {
+    color: balck;
+    font-size: 34px;
+    font-weight: 900;
+
+    @media (min-width: 450px) {
+        font-size: 15px;
+      }
+      
+    @media (min-width: 760px) {
+        font-size: 20px;
+      }
+      
+    @media (min-width: 900px) {
+        font-size: 34px;
+        margin: 0 0 1em;
+      }
+}
+
+p {
+    color: black'
+    
+}
+
 header {
     background-color: #ffbf00;
     position: fixed;
@@ -86,7 +110,7 @@ a:focus::after {
 }
 
 #my-name a {
-    color: #D90368;
+    color: #F76B00;
     font-style: italic;
     font-weight: 300;
     
@@ -96,6 +120,7 @@ a:focus::after {
     margin: 0 auto;
     max-width: 1280px;
     padding: 0 15px;
+    overflow-x: hidden;
 }
 
 .katya-photo {
@@ -104,9 +129,15 @@ a:focus::after {
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
+    position: relative;
+   
+}
+.katya-photo img {
+    width: 300px;
+    height: 300px;
 }
 
-img {
+img  {
     border-radius: 50%;
     padding: 10px;
 }
@@ -119,8 +150,8 @@ img {
 
 button {
     display: inline-block;
-    font-size: 1.4rem;
-    font-weight: 700;
+    font-size: 1rem;
+    font-weight: 500;
     line-height: normal;
     padding: 5px 20px;
     text-align: center;
@@ -129,8 +160,66 @@ button {
     background-color: #F76B00;
     color: white;
     border: #F76B00;
+    transition: background-color 0.2s linear 0s;
+
 }
 
 button:hover {
+    background-color: #ffbf00;
+}
 
+.container-2 {
+    margin-top: 20px;
+}
+
+table {
+    width: 50%;
+    background-color: #f2f2f2;
+    border-collapse: collapse;
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    font-weight: 300;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+}
+
+table td, th {
+    border-width: 1px;
+    border-color: #ffffff;
+    border-style: solid;
+    padding: 5px;  
+    
+}
+
+table thead {
+    background-color: ;
+
+}
+.two-in-one {
+    text-align: center;
+    background-color: #ffbf00;
+    font-size: larger;
+    font-weight: 500;
+    color: white;
+}
+
+.two-in-one a::after {
+    background-color: #ffbf00;
+}
+
+.two-in-one p {
+    color:#f2f2f2
+}
+
+.two-in-one:hover p {
+    color:black
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    
 }
