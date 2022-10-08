@@ -85,3 +85,52 @@ a:focus::after {
   transform: translate3d(0, 0.2em, 0);
 }
 
+#my-name a {
+    color: #D90368;
+    font-style: italic;
+    font-weight: 300;
+    
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1280px;
+    padding: 0 15px;
+}
+
+.katya-photo {
+    float: right;
+    border: 5px solid #ffbf00;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+}
+
+img {
+    border-radius: 50%;
+    padding: 10px;
+}
+
+.container p {
+    font-size: 1.5rem;
+    font-weight: 200;
+
+}
+
+button {
+    display: inline-block;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: normal;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: ;
+    background-color: #F76B00;
+    color: white;
+    border: #F76B00;
+}
+
+button:hover {
+
+}
