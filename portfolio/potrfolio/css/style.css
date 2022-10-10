@@ -156,11 +156,12 @@ button {
     padding: 5px 20px;
     text-align: center;
     text-decoration: none;
-    transition: ;
+    transition: background-color 0.7s linear;
     background-color: #F76B00;
     color: white;
     border: #F76B00;
     transition: background-color 0.2s linear 0s;
+    font-family: 'Jost', sans-serif;
 
 }
 
