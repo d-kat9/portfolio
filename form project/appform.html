@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" "form project\form-style.css">
+    <link rel="stylesheet" type='text/css' href="form-style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;600&display=swap" rel="stylesheet">
@@ -16,7 +16,97 @@
     </section>
 
     <section id="main">
-        <h1>Appointment Request Form</h1>
-    </section>
+        <h1>Appointment Feedback Form 📋</h1>
+        <hr>
+        <form action="" method="">
+            <h3>Contact Information</h3>
+        <label for="name">Name:</label>
+            <input type="text" name="name" placeholder="First" required/>
+            <input type="text" name="name" placeholder="Last" required/>
+        </div>
+        <br>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="text" placeholder="example@gmail.com"required>
+        <label for="phone">Phone: </label>
+      <input id="phone" name="phone" type="tel" placeholder="+1(XXX) XXX-XX-XX" required>
+      <br> <br>
+      <hr>
+      <h3>Appointment Information</h3>
+    <label for="visit-location">Location You Visited</label>
+    <select name="visit-location" id="visit-location">
+        <option value="visit-location">Please Select</option>
+        <option value="1">West Bloomfield</option>
+        <option value="2">Farmington Hills</option>
+        <option value="3">Southfield</option>
+        <option value="4">Detroit</option>
+    </select>
+    <br>
+    <label for="visit-date">Day Visited</label>
+    <input type="date" name="visit-date" id="visit-date">
+    <br>
+    <label for="app-type">Appoitment Type:</label>
+    <select type="text" name="app-type" id="app-type" required>
+
+        <option value="Consultation">Consultation</option>
+        <option value="Emergency">Emergency</option>
+        <option value="Regular Appointment">Regular Appointment</option>
+        <option value="Skin Check">Skin Check</option>
+        <option value="Blood Work">Blood Work</option>
+        <option value="Other">Other</option>
+    </select>
+
+    <h3>Please Rate Your Experience</h3>
+        <table>
+          <tr>
+            <th class="first-col"></th>
+            <th>Amazing</th>
+            <th>Good</th>
+            <th>Decent</th>
+            <th>Disappointing</th>
+          </tr>
+          <tr>
+            <td class="first-col">Appointment Satisfaction</td>
+            <td><input type="radio" value="none" name="Food" /></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+            <td><input type="radio" value="none" name="Food" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Staff Work</td>
+            <td><input type="radio" value="none" name="Service" /></td>
+            <td><input type="radio" value="none" name="Service" /></td>
+            <td><input type="radio" value="none" name="Service" /></td>
+            <td><input type="radio" value="none" name="Service" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Scheduling </td>
+            <td><input type="radio" value="none" name="Speed" /></td>
+            <td><input type="radio" value="none" name="Speed" /></td>
+            <td><input type="radio" value="none" name="Speed" /></td>
+            <td><input type="radio" value="none" name="Speed" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Facility</td>
+            <td><input type="radio" value="none" name="Price" /></td>
+            <td><input type="radio" value="none" name="Price" /></td>
+            <td><input type="radio" value="none" name="Price" /></td>
+            <td><input type="radio" value="none" name="Price" /></td>
+          </tr>
+          <tr>
+            <td class="first-col">Overall Experience</td>
+            <td><input type="radio" value="none" name="Experience" /></td>
+            <td><input type="radio" value="none" name="Experience" /></td>
+            <td><input type="radio" value="none" name="Experience" /></td>
+            <td><input type="radio" value="none" name="Experience" /></td>
+          </tr>
+        </table>
+        <br>
+        <label for="comments">Any comments, questions or suggestions?</label>
+        <br>
+        <textarea rows="5" cols="35"></textarea>
+        <br><br>
+        <input type="submit" id ="button" value="Send Feedback">
+</form>
+</section>
 </body>
 </html>

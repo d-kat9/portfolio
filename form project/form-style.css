@@ -1,5 +1,17 @@
+
 body {
-    background-color:aliceblue;
+    background-color:rgb(255, 255, 255);
+    
+}
+
+body, div, form, input, select { 
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 
+    font-size: 14px;
+    color: #666;
+    line-height: 22px;
     font-family: 'Mulish', sans-serif;
 }
 
@@ -8,7 +20,7 @@ form {
 }
 
 #main {
-    background-color: antiquewhite;
+    background-color: rgb(246, 246, 252);
     text-align: center;
     height: 80vh;
     border-radius: 15px;
@@ -17,7 +29,7 @@ form {
 }
 
 #top {
-    background-color: azure ;
+    background-color: #004AAD ;
     margin: 2% 10%;
     border-radius: 15px;
 }
@@ -26,4 +38,74 @@ form {
     display: block;
     width: 35%;
     margin: 0 auto;
+}
+
+
+th, td {
+    width: 18%;
+    padding: 15px 0;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    vertical-align: unset;
+    line-height: 18px;
+    font-weight: 400;
+    word-break: break-all;
+    }
+    .first-col {
+    width: 25%;
+    text-align: left;
+    }
+
+    #button {
+        width: 150px;
+        padding: 10px;
+        border: none;
+        -webkit-border-radius: 5px; 
+        -moz-border-radius: 5px; 
+        border-radius: 5px; 
+        background-color: #004AAD;
+        font-size: 16px;
+        color: #fff;
+        cursor: pointer;
+        font-family: 'Mulish', sans-serif;
+    }
+    
+    #button:hover {
+    background-color: #28acff;
+    }
+
+    input:hover, textarea:hover, select:hover {
+    outline: none;
+    border: 1px solid #095484;
+    }
+
+    input {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 3px;
+        vertical-align: middle;
+        }
+
+        
+    select {
+            padding: 5px 0;
+            margin-bottom: 5px;
+            border-radius: 3px;
+            border: 1px solid #ccc;
+            background: #e6eef7;
+        }
+    
+    option {
+            background: #fff;
+        }
+    
+    #visit-date {
+            position: relative;
+            margin-bottom: 5px;
+            background: #e6eef7;
+            }
+
+table {
+    margin-left: auto;
+    margin-right: auto;
 }
