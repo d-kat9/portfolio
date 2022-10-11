@@ -235,7 +235,7 @@ footer{
     justify-content: space-around;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 15px;
+    margin-bottom: 50px;
 }
 
 #left {
@@ -252,3 +252,4 @@ footer{
     height: 500px;
     border-radius: 5px;
 }
+
