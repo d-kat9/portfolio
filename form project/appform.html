@@ -18,7 +18,7 @@
     <section id="main">
         <h1>Appointment Feedback Form 📋</h1>
         <hr>
-        <form action="" method="">
+        <form action="myform.php" method="post">
             <h3>Contact Information</h3>
         <label for="name">Name:</label>
             <input type="text" name="name" placeholder="First" required/>
@@ -56,7 +56,7 @@
     </select>
 
     <h3>Please Rate Your Experience</h3>
-        <table>
+        <table >
           <tr>
             <th class="first-col"></th>
             <th>Amazing</th>
@@ -66,31 +66,31 @@
           </tr>
           <tr>
             <td class="first-col">Appointment Satisfaction</td>
-            <td><input type="radio" value="none" name="Food" /></td>
-            <td><input type="radio" value="none" name="Food" /></td>
-            <td><input type="radio" value="none" name="Food" /></td>
-            <td><input type="radio" value="none" name="Food" /></td>
+            <td><input type="radio" value="amazing" name="Satisfaction" /></td>
+            <td><input type="radio" value="Good" name="Satisfaction" /></td>
+            <td><input type="radio" value="Decent" name="Satisfaction" /></td>
+            <td><input type="radio" value="Disappointing" name="Satisfaction" /></td>
           </tr>
           <tr>
             <td class="first-col">Staff Work</td>
-            <td><input type="radio" value="none" name="Service" /></td>
-            <td><input type="radio" value="none" name="Service" /></td>
-            <td><input type="radio" value="none" name="Service" /></td>
-            <td><input type="radio" value="none" name="Service" /></td>
+            <td><input type="radio" value="none" name="Staff" /></td>
+            <td><input type="radio" value="none" name="Staff" /></td>
+            <td><input type="radio" value="none" name="Staff" /></td>
+            <td><input type="radio" value="none" name="Staff" /></td>
           </tr>
           <tr>
             <td class="first-col">Scheduling </td>
-            <td><input type="radio" value="none" name="Speed" /></td>
-            <td><input type="radio" value="none" name="Speed" /></td>
-            <td><input type="radio" value="none" name="Speed" /></td>
-            <td><input type="radio" value="none" name="Speed" /></td>
+            <td><input type="radio" value="none" name="Scheduling" /></td>
+            <td><input type="radio" value="none" name="Scheduling" /></td>
+            <td><input type="radio" value="none" name="Scheduling" /></td>
+            <td><input type="radio" value="none" name="Scheduling" /></td>
           </tr>
           <tr>
             <td class="first-col">Facility</td>
-            <td><input type="radio" value="none" name="Price" /></td>
-            <td><input type="radio" value="none" name="Price" /></td>
-            <td><input type="radio" value="none" name="Price" /></td>
-            <td><input type="radio" value="none" name="Price" /></td>
+            <td><input type="radio" value="none" name="Facility" /></td>
+            <td><input type="radio" value="none" name="Facility" /></td>
+            <td><input type="radio" value="none" name="Facility" /></td>
+            <td><input type="radio" value="none" name="Facility" /></td>
           </tr>
           <tr>
             <td class="first-col">Overall Experience</td>
@@ -103,9 +103,9 @@
         <br>
         <label for="comments">Any comments, questions or suggestions?</label>
         <br>
-        <textarea rows="5" cols="35"></textarea>
+        <textarea name="comments" rows="5" cols="35"></textarea>
         <br><br>
-        <input type="submit" id ="button" value="Send Feedback">
+        <input type="submit" id ="submit" name="submit" value="submit">
 </form>
 </section>
 </body>
