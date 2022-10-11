@@ -85,13 +85,13 @@ nav {
     text-align: center;
 }
 
-a {
+nav a {
     display: block;
     position: relative;
     padding: 0.2em 0;
   }
 
-a::after {
+nav a::after {
     content: '';
     position: absolute;
     bottom: 0;
@@ -103,8 +103,8 @@ a::after {
     transition: opacity 300ms, transform 300ms;
   }
   
-a:hover::after,
-a:focus::after {
+nav a:hover::after,
+nav a:focus::after {
   opacity: 1;
   transform: translate3d(0, 0.2em, 0);
 }
@@ -148,7 +148,7 @@ img  {
 
 }
 
-button {
+#button {
     display: inline-block;
     font-size: 1rem;
     font-weight: 500;
@@ -157,18 +157,22 @@ button {
     text-align: center;
     text-decoration: none;
     transition: background-color 0.7s linear;
-    background-color: #F76B00;
+    background-color: #a1a1a1;
+    border-radius: 3px;
     color: white;
-    border: #F76B00;
+    border: none;
     transition: background-color 0.2s linear 0s;
     font-family: 'Jost', sans-serif;
 
 }
 
-button:hover {
+#button:hover {
     background-color: #ffbf00;
 }
 
+#button a {
+    color: #f2f2f2;
+}
 .container-2 {
     margin-top: 20px;
 }
@@ -224,3 +228,4 @@ footer{
     padding: 60px;
     
 }
+
