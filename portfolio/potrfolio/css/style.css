@@ -31,19 +31,6 @@ h1 {
     color: balck;
     font-size: 34px;
     font-weight: 900;
-
-    @media (min-width: 450px) {
-        font-size: 15px;
-      }
-      
-    @media (min-width: 760px) {
-        font-size: 20px;
-      }
-      
-    @media (min-width: 900px) {
-        font-size: 34px;
-        margin: 0 0 1em;
-      }
 }
 
 p {
@@ -184,7 +171,7 @@ table {
     border-width: 1px;
     border-color: #ffffff;
     border-style: solid;
-    font-weight: 300;
+    font-weight: 200;
     margin-left: auto;
     margin-right: auto;
     font-size: 20px;
@@ -253,3 +240,55 @@ footer{
     border-radius: 5px;
 }
 
+#header-projects h1 {
+    text-align: center;
+}
+
+@media only screen and (max-width: 450px) {
+    #my-name {
+        display: none;
+    }
+
+    h1 {
+        font-size: 15px;
+    }
+
+    .katya-photo img {
+        max-width: 150px;
+        max-height: 150px;
+    }
+
+    .container p {
+        font-size: 1rem;
+    }
+
+    table {
+        font-size: 1rem;
+        width: 100%;
+    }
+    .container h2 {
+        font-size: 1rem;
+    }
+    .project {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #left {
+        width: 100%;
+        overflow: wrap;
+        padding-right: 15px;
+    }
+
+    #right {
+        align-items: center;
+        
+    }
+
+    #right img {
+        max-width: 200px;
+        max-height: 200px;
+    }
+
+    
+}
