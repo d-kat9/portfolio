@@ -116,7 +116,7 @@ nav a:focus::after {
     border-radius: 500px;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
-    position: relative;
+ 
    
 }
 .katya-photo img  {
